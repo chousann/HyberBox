@@ -1,0 +1,110 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: win32 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/win32.res" /d "_DEBUG" "C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\win32.rc"" 
+Creating temporary file "C:\Users\mrzhang\AppData\Local\Temp\RSPC716.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/win32.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\Camera.cpp"
+"C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\CMath.cpp"
+"C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\CTriangle.cpp"
+"C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\GLMath.cpp"
+"C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\Matrix.cpp"
+"C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\Scene.cpp"
+"C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\Utils.cpp"
+"C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\Vector.cpp"
+"C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\VideoBuf.cpp"
+"C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\win32.cpp"
+]
+Creating command line "cl.exe @C:\Users\mrzhang\AppData\Local\Temp\RSPC716.tmp" 
+Creating temporary file "C:\Users\mrzhang\AppData\Local\Temp\RSPC727.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/win32.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\mrzhang\AppData\Local\Temp\RSPC727.tmp" 
+Creating temporary file "C:\Users\mrzhang\AppData\Local\Temp\RSPC728.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/win32.pdb" /debug /machine:I386 /out:"Debug/win32.exe" /pdbtype:sept 
+".\Debug\Camera.obj"
+".\Debug\CMath.obj"
+".\Debug\CTriangle.obj"
+".\Debug\GLMath.obj"
+".\Debug\Matrix.obj"
+".\Debug\Scene.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Utils.obj"
+".\Debug\Vector.obj"
+".\Debug\VideoBuf.obj"
+".\Debug\win32.obj"
+".\Debug\win32.res"
+]
+Creating command line "link.exe @C:\Users\mrzhang\AppData\Local\Temp\RSPC728.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Camera.cpp
+CMath.cpp
+CTriangle.cpp
+GLMath.cpp
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\GLMath.cpp(3) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+Matrix.cpp
+Scene.cpp
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\Scene.cpp(459) : warning C4101: 'zleft' : unreferenced local variable
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\Scene.cpp(459) : warning C4101: 'zrighr' : unreferenced local variable
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\Scene.cpp(634) : warning C4101: 'zleft' : unreferenced local variable
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\Scene.cpp(634) : warning C4101: 'zrighr' : unreferenced local variable
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\Scene.cpp(800) : warning C4101: 'zleft' : unreferenced local variable
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\Scene.cpp(800) : warning C4101: 'zrighr' : unreferenced local variable
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\Scene.cpp(923) : warning C4101: 'zleft' : unreferenced local variable
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\Scene.cpp(923) : warning C4101: 'zrighr' : unreferenced local variable
+Utils.cpp
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\Utils.cpp(140) : warning C4101: 's' : unreferenced local variable
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\Utils.cpp(140) : warning C4101: 't' : unreferenced local variable
+Vector.cpp
+VideoBuf.cpp
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\VideoBuf.cpp(7) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\VideoBuf.cpp(8) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\VideoBuf.cpp(9) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\VideoBuf.cpp(14) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\VideoBuf.cpp(15) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\VideoBuf.cpp(16) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+win32.cpp
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\win32.cpp(191) : warning C4101: 'ps' : unreferenced local variable
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\win32.cpp(192) : warning C4101: 'hdc' : unreferenced local variable
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\win32.cpp(486) : warning C4101: 'bitmap' : unreferenced local variable
+C:\Users\mrzhang\Desktop\文件\编程\自己的代码\精品\3dbox-v1.0\win32.cpp(502) : warning C4101: 'bitmap' : unreferenced local variable
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\mrzhang\AppData\Local\Temp\RSPE967.tmp" with contents
+[
+/nologo /o"Debug/win32.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\Camera.sbr"
+".\Debug\CMath.sbr"
+".\Debug\CTriangle.sbr"
+".\Debug\GLMath.sbr"
+".\Debug\Matrix.sbr"
+".\Debug\Scene.sbr"
+".\Debug\Utils.sbr"
+".\Debug\Vector.sbr"
+".\Debug\VideoBuf.sbr"
+".\Debug\win32.sbr"]
+Creating command line "bscmake.exe @C:\Users\mrzhang\AppData\Local\Temp\RSPE967.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+win32.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

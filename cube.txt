@@ -1,0 +1,55 @@
+texfilepath	C:\\Users\\mrzhang\\Desktop\\文件\\编程\\自己的代码\\格斗\\res\\q1i.bmp
+vetexcount 8
+vetex
+pos -50 -50 -50
+vetex
+pos 50 -50 -50
+vetex
+pos 50 -50 50
+vetex
+pos -50 -50 50
+vetex
+pos -50 50 -50
+vetex
+pos 50 50 -50
+vetex
+pos 50 50 50
+vetex
+pos -50 50 50
+IDtricount 12
+IDtri
+v 0 4 5
+texCoord 0 0 0 1 1 1
+IDtri
+v 0 5 1
+texCoord 0 0 1 1 1 0
+IDtri
+v 1 5 6
+texCoord 0 0 0 1 1 1
+IDtri
+v 1 6 2
+texCoord 0 0 1 1 1 0
+IDtri
+v 2 6 7
+texCoord 0 0 0 1 1 1
+IDtri
+v 2 7 3
+texCoord 0 0 1 1 1 0
+IDtri
+v 3 7 4
+texCoord 0 0 0 1 1 1
+IDtri
+v 3 4 0
+texCoord 0 0 1 1 1 0
+IDtri
+v 0 1 2
+texCoord 0 1 1 1 1 0
+IDtri
+v 0 2 3
+texCoord 0 1 1 0 0 0
+IDtri
+v 4 7 6
+texCoord 0 0 0 1 1 1
+IDtri
+v 4 6 5
+texCoord 0 0 1 1 1 0
