@@ -3,7 +3,7 @@
 
 #include "stdafx.h"
 #include "resource.h"
-#include "scene.h"
+#include "Soft3DEngine/scene.h"
 #include <time.h>
 #include <math.h>
 #define MAX_LOADSTRING 100

@@ -90,27 +90,27 @@ LINK32=link.exe
 # PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
 # Begin Source File
 
-SOURCE=.\Camera.cpp
+SOURCE=.\Soft3DEngine\Camera.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\CMath.cpp
+SOURCE=.\Soft3DEngine\CMath.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\CTriangle.cpp
+SOURCE=.\Soft3DEngine\CTriangle.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\GLMath.cpp
+SOURCE=.\Soft3DEngine\GLMath.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\Matrix.cpp
+SOURCE=.\Soft3DEngine\Matrix.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\Scene.cpp
+SOURCE=.\Soft3DEngine\Scene.cpp
 # End Source File
 # Begin Source File
 
@@ -119,15 +119,15 @@ SOURCE=.\StdAfx.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\Utils.cpp
+SOURCE=.\Soft3DEngine\Utils.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\Vector.cpp
+SOURCE=.\Soft3DEngine\Vector.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\VideoBuf.cpp
+SOURCE=.\Soft3DEngine\VideoBuf.cpp
 # End Source File
 # Begin Source File
 
@@ -143,51 +143,47 @@ SOURCE=.\win32.rc
 # PROP Default_Filter "h;hpp;hxx;hm;inl"
 # Begin Source File
 
-SOURCE=.\Camera.h
+SOURCE=.\Soft3DEngine\Camera.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\CMath.h
+SOURCE=.\Soft3DEngine\CMath.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\CTriangle.h
+SOURCE=.\Soft3DEngine\CTriangle.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\Cvert.h
+SOURCE=.\Soft3DEngine\Cvert.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\GLMath.h
+SOURCE=.\Soft3DEngine\GLMath.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\Matrix.h
+SOURCE=.\Soft3DEngine\Matrix.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\Mesh.h
+SOURCE=.\Soft3DEngine\Mesh.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\Object.h
+SOURCE=.\Soft3DEngine\Object.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\Range.h
+SOURCE=.\Soft3DEngine\Range.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\readmodel.h
+SOURCE=.\Soft3DEngine\readmodel.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\resource.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\Scene.h
+SOURCE=.\Soft3DEngine\Scene.h
 # End Source File
 # Begin Source File
 
@@ -195,19 +191,19 @@ SOURCE=.\StdAfx.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\Triangle.h
+SOURCE=.\Soft3DEngine\Triangle.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\Utils.h
+SOURCE=.\Soft3DEngine\Utils.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\Vector.h
+SOURCE=.\Soft3DEngine\Vector.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\VideoBuf.h
+SOURCE=.\Soft3DEngine\VideoBuf.h
 # End Source File
 # Begin Source File
 
