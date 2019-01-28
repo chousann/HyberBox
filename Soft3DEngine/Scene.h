@@ -60,10 +60,11 @@ public:
 		m_objectList.push_back(obj);
 	}
 	void loadPlayer(){
-		string fileFullPath="C:\\Users\\mrzhang\\Desktop\\文件\\编程\\自己的代码\\精品\\3dbox-v1.0\\Debug\\cube1.txt";
+		string fileFullPath="..\\resource\\";
+		string filename="cube1.txt";
 		CVector4 worldPos2(m_camera->getEyePos().x(),m_camera->getEyePos().y()+300,m_camera->getEyePos().z()+600,1);
-		Object obj2(fileFullPath,worldPos2,"player");
-		Object obj3(fileFullPath,worldPos2,"player");
+		Object obj2(fileFullPath,filename,worldPos2,"player");
+		Object obj3(fileFullPath,filename,worldPos2,"player");
 		player=obj3;
 		m_objectList.push_back(obj2);
 		for(int m=0;m<m_objectList.size();m++){

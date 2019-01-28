@@ -300,20 +300,22 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 }
 void load(){
 	CVector4 worldPos(0,700,2000,1);
-	string fileFullPath="C:\\Users\\mrzhang\\Desktop\\文件\\编程\\自己的代码\\精品\\3dbox-v1.0\\Debug\\file.obj";
-	Object obj0(fileFullPath,worldPos,"cube","obj");
+	string fileFullPath="..\\resource\\";
+	string filename="file.obj";
+	Object obj0(fileFullPath,filename,worldPos,"cube","obj");
 	obj0.rotate.setx(180);
 	scene.loadObject(obj0);
 	CVector4 worldPos1(200,-50,600,1);
-	fileFullPath="C:\\Users\\mrzhang\\Desktop\\文件\\编程\\自己的代码\\精品\\3dbox-v1.0\\Debug\\cube.txt";
-	Object obj1(fileFullPath,worldPos1,"cube1","txt");
+	fileFullPath="..\\resource\\";
+	filename="cube.txt";
+	Object obj1(fileFullPath,filename,worldPos1,"cube1","txt");
 	scene.loadObject(obj1);
 		for(int i=0;i<0;i++){
 			int x,z;
 			x=rand()%1000;
 			z=rand()%700;
 			CVector4 worldPos1(x,-50,z,1);
-			Object obj2(fileFullPath,worldPos1,"cube1");
+			Object obj2(fileFullPath,filename,worldPos1,"cube1");
 			scene.loadObject(obj2);
 		}
 }

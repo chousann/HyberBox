@@ -22,17 +22,18 @@ class Object{
 	public:
 		Object(){
 		};
-		Object(string fileFullPath,CVector4 pos,string n,string style="txt"){
+		Object(string fileFullPath,string filename,CVector4 pos,string n,string style="txt"){
 			name=n;
 			worldPos.init(pos.x(),pos.y(),pos.z(),1);
 			rotate.init(0,0,0,1);
 			turning=0;
 			m_localmesh = new Mesh();
 			m_transformedmesh = new Mesh();
-			Model m(fileFullPath);
+			Model m(fileFullPath+filename);
 			if(style=="txt"){
 			m.loadModelFromZdy(m_localmesh);
-			LPCSTR str=LPCSTR((m_localmesh->m_texfilepath.c_str()));
+			fileFullPath+=m_localmesh->m_texfilepath;
+			LPCSTR str=LPCSTR((fileFullPath.c_str()));
 			//в╟тьн╩м╪
 			HBITMAP hbitmap=(HBITMAP)LoadImage(NULL,str,IMAGE_BITMAP,0,0,LR_LOADFROMFILE|LR_CREATEDIBSECTION);
 			if(GetObject(hbitmap,sizeof(BITMAP),&m_texbitmap)==0)
