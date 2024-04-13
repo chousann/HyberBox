@@ -63,7 +63,7 @@ protected:
 	CVector4 m_up;
 
 public:
-	double ydir;
+	float ydir;
 	void init(CVector4 eyePos,CVector4 center,CVector4 up,float w,float h){
 		m_eyePos=eyePos;
 		m_center=center;

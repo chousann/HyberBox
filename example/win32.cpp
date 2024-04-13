@@ -54,10 +54,16 @@ int APIENTRY WinMain(HINSTANCE hInstance,
 			TranslateMessage(&msg);
 			DispatchMessage(&msg);
 		}
-		gameMain(msg);
+		//gameMain(msg);
 	}
 
 	return msg.wParam;
+}
+void CALLBACK TimerProc(HWND hwnd,UINT nmsg,UINT ntimerid,DWORD dwtime){
+	if(ntimerid==1){
+		scene.m_objectList[2].rotate.sety(scene.m_objectList[2].rotate.y()-2);			
+		InvalidateRect(hwnd,NULL,TRUE);
+	}
 }
 void gameMain(MSG msg){
 	HWND hwnd=msg.hwnd;
@@ -245,6 +251,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 			//释放DC
 			ReleaseDC(hWnd,hdc1);
 			load();
+			SetTimer(hWnd,1,5,TimerProc);
 
 			//scene.init_texbitmap("C:\\Users\\mrzhang\\Desktop\\文件\\编程\\自己的代码\\格斗\\res\\qi.bmp");
 					   }
@@ -266,7 +273,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 			}
 			break;
 		case WM_PAINT:{
-			/*hdc = BeginPaint(hWnd, &ps);
+			hdc = BeginPaint(hWnd, &ps);
 			clock_t start=clock();
 			OnPaint(hdc,hWnd, message, wParam, lParam);
 			clock_t stop=clock();
@@ -288,7 +295,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 
 			//TextOut(hdc,0,5+20*2,string("fps:")+numberToStr(fps));
-			EndPaint(hWnd, &ps);*/
+			EndPaint(hWnd, &ps);
 			break;}
 		case WM_DESTROY:
 			PostQuitMessage(0);

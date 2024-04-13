@@ -37,12 +37,12 @@ class Object{
 			//装载位图
 			HBITMAP hbitmap=(HBITMAP)LoadImage(NULL,str,IMAGE_BITMAP,0,0,LR_LOADFROMFILE|LR_CREATEDIBSECTION);
 			if(GetObject(hbitmap,sizeof(BITMAP),&m_texbitmap)==0)
-				MessageBox(NULL,"heoo",0,0);
+				MessageBox(NULL, LPCSTR("heoo"),0,0);
 			}else if(style=="obj"){
 			m.loadModelFromObj(m_localmesh);
 			}else{
 				string str=fileFullPath+":不能识别的类型";
-				MessageBox(NULL,str.c_str(),0,0);
+				MessageBox(NULL, LPCSTR(str.c_str()),0,0);
 			}
 			m_localmesh->m_positionList.size();
 		};

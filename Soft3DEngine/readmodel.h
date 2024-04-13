@@ -6,7 +6,6 @@
 #include <sstream>
 class Model{
 	public:
-		FILE  *fp;
 		string fileFullPath;
 		ifstream ifs;
 	public:
@@ -15,15 +14,11 @@ class Model{
 		}
 		Model(string file){
 			fileFullPath=file;
-			fp=fopen(fileFullPath.c_str(),"r");// write
 			ifs.open(fileFullPath.c_str()); 
-			if(fp==NULL){
-				cout<<"Open "<<fileFullPath<<" failed!"<<endl;
-			}
 		}
 		~Model(){}
 	void maheCube(Mesh *m_mesh){
-		double l=100;
+		float l=100;
 		CVector4 v[8];
 		v[0].init(-l/2,-l/2,-l/2,1);
 		v[1].init( l/2,-l/2,-l/2,1);
@@ -143,7 +138,7 @@ void loadModelFromZdy(Mesh *m_mesh){
 				istringstream iss1(str);
 				iss1>>head;
 				if(head=="color"){
-					float x,y,z;
+					short x,y,z;
 					int size=1;
 					iss1>>x>>y>>z;
 					triList.m_color[0]=x;
