@@ -6,45 +6,45 @@
 --------------------Configuration: win32 - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating command line "rc.exe /l 0x804 /fo"../Debug/win32.res" /d "_DEBUG" "D:\Desktop\文件\2019\HyberBox\example\win32.rc"" 
-Creating temporary file "C:\Users\mrzhang\AppData\Local\Temp\RSP34C1.tmp" with contents
+Creating command line "rc.exe /l 0x804 /fo"../Debug/win32.res" /d "_DEBUG" "D:\Desktop\文件\2019\app\HyberBox\example\win32.rc"" 
+Creating temporary file "C:\Users\mrzhang\AppData\Local\Temp\RSP518C.tmp" with contents
 [
 /nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"../Debug/" /Fp"../Debug/win32.pch" /Yu"stdafx.h" /Fo"../Debug/" /Fd"../Debug/" /FD /GZ /c 
-"D:\Desktop\文件\2019\HyberBox\Soft3DEngine\Camera.cpp"
-"D:\Desktop\文件\2019\HyberBox\Soft3DEngine\CMath.cpp"
-"D:\Desktop\文件\2019\HyberBox\Soft3DEngine\CTriangle.cpp"
-"D:\Desktop\文件\2019\HyberBox\Soft3DEngine\GLMath.cpp"
-"D:\Desktop\文件\2019\HyberBox\Soft3DEngine\Matrix.cpp"
-"D:\Desktop\文件\2019\HyberBox\Soft3DEngine\Scene.cpp"
-"D:\Desktop\文件\2019\HyberBox\Soft3DEngine\Utils.cpp"
-"D:\Desktop\文件\2019\HyberBox\Soft3DEngine\Vector.cpp"
-"D:\Desktop\文件\2019\HyberBox\Soft3DEngine\VideoBuf.cpp"
-"D:\Desktop\文件\2019\HyberBox\example\win32.cpp"
+"D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\Camera.cpp"
+"D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\CMath.cpp"
+"D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\CTriangle.cpp"
+"D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\GLMath.cpp"
+"D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\Matrix.cpp"
+"D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\Scene.cpp"
+"D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\Utils.cpp"
+"D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\Vector.cpp"
+"D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\VideoBuf.cpp"
+"D:\Desktop\文件\2019\app\HyberBox\example\win32.cpp"
 ]
-Creating command line "cl.exe @C:\Users\mrzhang\AppData\Local\Temp\RSP34C1.tmp" 
-Creating temporary file "C:\Users\mrzhang\AppData\Local\Temp\RSP34D2.tmp" with contents
+Creating command line "cl.exe @C:\Users\mrzhang\AppData\Local\Temp\RSP518C.tmp" 
+Creating temporary file "C:\Users\mrzhang\AppData\Local\Temp\RSP519D.tmp" with contents
 [
 /nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"../Debug/" /Fp"../Debug/win32.pch" /Yc"stdafx.h" /Fo"../Debug/" /Fd"../Debug/" /FD /GZ /c 
-"D:\Desktop\文件\2019\HyberBox\example\StdAfx.cpp"
+"D:\Desktop\文件\2019\app\HyberBox\example\StdAfx.cpp"
 ]
-Creating command line "cl.exe @C:\Users\mrzhang\AppData\Local\Temp\RSP34D2.tmp" 
-Creating temporary file "C:\Users\mrzhang\AppData\Local\Temp\RSP34D3.tmp" with contents
+Creating command line "cl.exe @C:\Users\mrzhang\AppData\Local\Temp\RSP519D.tmp" 
+Creating temporary file "C:\Users\mrzhang\AppData\Local\Temp\RSP519E.tmp" with contents
 [
 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"../Debug/win32.pdb" /debug /machine:I386 /out:"../Debug/win32.exe" /pdbtype:sept 
-"\Desktop\文件\2019\HyberBox\Debug\Camera.obj"
-"\Desktop\文件\2019\HyberBox\Debug\CMath.obj"
-"\Desktop\文件\2019\HyberBox\Debug\CTriangle.obj"
-"\Desktop\文件\2019\HyberBox\Debug\GLMath.obj"
-"\Desktop\文件\2019\HyberBox\Debug\Matrix.obj"
-"\Desktop\文件\2019\HyberBox\Debug\Scene.obj"
-"\Desktop\文件\2019\HyberBox\Debug\StdAfx.obj"
-"\Desktop\文件\2019\HyberBox\Debug\Utils.obj"
-"\Desktop\文件\2019\HyberBox\Debug\Vector.obj"
-"\Desktop\文件\2019\HyberBox\Debug\VideoBuf.obj"
-"\Desktop\文件\2019\HyberBox\Debug\win32.obj"
-"\Desktop\文件\2019\HyberBox\Debug\win32.res"
+"\Desktop\文件\2019\app\HyberBox\Debug\Camera.obj"
+"\Desktop\文件\2019\app\HyberBox\Debug\CMath.obj"
+"\Desktop\文件\2019\app\HyberBox\Debug\CTriangle.obj"
+"\Desktop\文件\2019\app\HyberBox\Debug\GLMath.obj"
+"\Desktop\文件\2019\app\HyberBox\Debug\Matrix.obj"
+"\Desktop\文件\2019\app\HyberBox\Debug\Scene.obj"
+"\Desktop\文件\2019\app\HyberBox\Debug\StdAfx.obj"
+"\Desktop\文件\2019\app\HyberBox\Debug\Utils.obj"
+"\Desktop\文件\2019\app\HyberBox\Debug\Vector.obj"
+"\Desktop\文件\2019\app\HyberBox\Debug\VideoBuf.obj"
+"\Desktop\文件\2019\app\HyberBox\Debug\win32.obj"
+"\Desktop\文件\2019\app\HyberBox\Debug\win32.res"
 ]
-Creating command line "link.exe @C:\Users\mrzhang\AppData\Local\Temp\RSP34D3.tmp"
+Creating command line "link.exe @C:\Users\mrzhang\AppData\Local\Temp\RSP519E.tmp"
 <h3>Output Window</h3>
 Compiling resources...
 Compiling...
@@ -54,48 +54,48 @@ Camera.cpp
 CMath.cpp
 CTriangle.cpp
 GLMath.cpp
-D:\Desktop\文件\2019\HyberBox\Soft3DEngine\GLMath.cpp(3) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\GLMath.cpp(3) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
 Matrix.cpp
 Scene.cpp
-D:\Desktop\文件\2019\HyberBox\Soft3DEngine\Scene.cpp(459) : warning C4101: 'zleft' : unreferenced local variable
-D:\Desktop\文件\2019\HyberBox\Soft3DEngine\Scene.cpp(459) : warning C4101: 'zrighr' : unreferenced local variable
-D:\Desktop\文件\2019\HyberBox\Soft3DEngine\Scene.cpp(634) : warning C4101: 'zleft' : unreferenced local variable
-D:\Desktop\文件\2019\HyberBox\Soft3DEngine\Scene.cpp(634) : warning C4101: 'zrighr' : unreferenced local variable
-D:\Desktop\文件\2019\HyberBox\Soft3DEngine\Scene.cpp(800) : warning C4101: 'zleft' : unreferenced local variable
-D:\Desktop\文件\2019\HyberBox\Soft3DEngine\Scene.cpp(800) : warning C4101: 'zrighr' : unreferenced local variable
-D:\Desktop\文件\2019\HyberBox\Soft3DEngine\Scene.cpp(923) : warning C4101: 'zleft' : unreferenced local variable
-D:\Desktop\文件\2019\HyberBox\Soft3DEngine\Scene.cpp(923) : warning C4101: 'zrighr' : unreferenced local variable
+D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\Scene.cpp(459) : warning C4101: 'zleft' : unreferenced local variable
+D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\Scene.cpp(459) : warning C4101: 'zrighr' : unreferenced local variable
+D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\Scene.cpp(634) : warning C4101: 'zleft' : unreferenced local variable
+D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\Scene.cpp(634) : warning C4101: 'zrighr' : unreferenced local variable
+D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\Scene.cpp(800) : warning C4101: 'zleft' : unreferenced local variable
+D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\Scene.cpp(800) : warning C4101: 'zrighr' : unreferenced local variable
+D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\Scene.cpp(923) : warning C4101: 'zleft' : unreferenced local variable
+D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\Scene.cpp(923) : warning C4101: 'zrighr' : unreferenced local variable
 Utils.cpp
-D:\Desktop\文件\2019\HyberBox\Soft3DEngine\Utils.cpp(140) : warning C4101: 's' : unreferenced local variable
-D:\Desktop\文件\2019\HyberBox\Soft3DEngine\Utils.cpp(140) : warning C4101: 't' : unreferenced local variable
+D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\Utils.cpp(140) : warning C4101: 's' : unreferenced local variable
+D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\Utils.cpp(140) : warning C4101: 't' : unreferenced local variable
 Vector.cpp
 VideoBuf.cpp
-D:\Desktop\文件\2019\HyberBox\Soft3DEngine\VideoBuf.cpp(7) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
-D:\Desktop\文件\2019\HyberBox\Soft3DEngine\VideoBuf.cpp(8) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
-D:\Desktop\文件\2019\HyberBox\Soft3DEngine\VideoBuf.cpp(9) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
-D:\Desktop\文件\2019\HyberBox\Soft3DEngine\VideoBuf.cpp(14) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
-D:\Desktop\文件\2019\HyberBox\Soft3DEngine\VideoBuf.cpp(15) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
-D:\Desktop\文件\2019\HyberBox\Soft3DEngine\VideoBuf.cpp(16) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\VideoBuf.cpp(7) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\VideoBuf.cpp(8) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\VideoBuf.cpp(9) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\VideoBuf.cpp(14) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\VideoBuf.cpp(15) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+D:\Desktop\文件\2019\app\HyberBox\Soft3DEngine\VideoBuf.cpp(16) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
 win32.cpp
-D:\Desktop\文件\2019\HyberBox\example\win32.cpp(495) : warning C4101: 'bitmap' : unreferenced local variable
-D:\Desktop\文件\2019\HyberBox\example\win32.cpp(511) : warning C4101: 'bitmap' : unreferenced local variable
+D:\Desktop\文件\2019\app\HyberBox\example\win32.cpp(495) : warning C4101: 'bitmap' : unreferenced local variable
+D:\Desktop\文件\2019\app\HyberBox\example\win32.cpp(511) : warning C4101: 'bitmap' : unreferenced local variable
 Generating Code...
 Linking...
-Creating temporary file "C:\Users\mrzhang\AppData\Local\Temp\RSP3CC3.tmp" with contents
+Creating temporary file "C:\Users\mrzhang\AppData\Local\Temp\RSP59DC.tmp" with contents
 [
 /nologo /o"../Debug/win32.bsc" 
-"\Desktop\文件\2019\HyberBox\Debug\StdAfx.sbr"
-"\Desktop\文件\2019\HyberBox\Debug\Camera.sbr"
-"\Desktop\文件\2019\HyberBox\Debug\CMath.sbr"
-"\Desktop\文件\2019\HyberBox\Debug\CTriangle.sbr"
-"\Desktop\文件\2019\HyberBox\Debug\GLMath.sbr"
-"\Desktop\文件\2019\HyberBox\Debug\Matrix.sbr"
-"\Desktop\文件\2019\HyberBox\Debug\Scene.sbr"
-"\Desktop\文件\2019\HyberBox\Debug\Utils.sbr"
-"\Desktop\文件\2019\HyberBox\Debug\Vector.sbr"
-"\Desktop\文件\2019\HyberBox\Debug\VideoBuf.sbr"
-"\Desktop\文件\2019\HyberBox\Debug\win32.sbr"]
-Creating command line "bscmake.exe @C:\Users\mrzhang\AppData\Local\Temp\RSP3CC3.tmp"
+"\Desktop\文件\2019\app\HyberBox\Debug\StdAfx.sbr"
+"\Desktop\文件\2019\app\HyberBox\Debug\Camera.sbr"
+"\Desktop\文件\2019\app\HyberBox\Debug\CMath.sbr"
+"\Desktop\文件\2019\app\HyberBox\Debug\CTriangle.sbr"
+"\Desktop\文件\2019\app\HyberBox\Debug\GLMath.sbr"
+"\Desktop\文件\2019\app\HyberBox\Debug\Matrix.sbr"
+"\Desktop\文件\2019\app\HyberBox\Debug\Scene.sbr"
+"\Desktop\文件\2019\app\HyberBox\Debug\Utils.sbr"
+"\Desktop\文件\2019\app\HyberBox\Debug\Vector.sbr"
+"\Desktop\文件\2019\app\HyberBox\Debug\VideoBuf.sbr"
+"\Desktop\文件\2019\app\HyberBox\Debug\win32.sbr"]
+Creating command line "bscmake.exe @C:\Users\mrzhang\AppData\Local\Temp\RSP59DC.tmp"
 Creating browse info file...
 <h3>Output Window</h3>
 
